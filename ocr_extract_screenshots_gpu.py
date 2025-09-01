@@ -98,10 +98,10 @@ def extract_timestamp_from_name(name):
 def main():
     start_time = datetime.now()
     ap = argparse.ArgumentParser(description="OCR-Auswertung für Screenshots -> CSV")
-    ap.add_argument("--input", default="./data", help="Ordner mit Bildern (PNG/JPG/BMP/TIF)")
-    ap.add_argument("--output", default="./data/auswertung.csv", help="Pfad zur Ausgabe-CSV")
+    ap.add_argument("--input", default="./screenshots", help="Ordner mit Bildern (PNG/JPG/BMP/TIF)")
+    ap.add_argument("--output", default="./output/auswertung.csv", help="Pfad zur Ausgabe-CSV")
     ap.add_argument("--timezone", default="Europe/Berlin", help="Zeitzone für lesbares Datum/Zeit")
-    ap.add_argument("--config", default="./data/ocr_config.json", help="Pfad zur Konfigurationsdatei")
+    ap.add_argument("--config", default="./ocr_config.json", help="Pfad zur Konfigurationsdatei")
     ap.add_argument("--gpu", choices=["auto","on","off"], default="auto",
                     help="GPU-Nutzung für EasyOCR: auto|on|off")
     args = ap.parse_args()
