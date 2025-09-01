@@ -1,0 +1,12 @@
+# Basis-Pakete
+pillow
+python-dateutil
+
+# OCR mit EasyOCR (nutzt PyTorch)
+easyocr
+torch
+torchvision
+torchaudio
+
+# Optional: falls du zusätzlich Tesseract nutzen möchtest
+pytesseract

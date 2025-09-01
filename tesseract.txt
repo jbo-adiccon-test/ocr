@@ -1,0 +1,11 @@
+Tesseract muss als Windows Programm installiert werden.
+Quelle: https://github.com/UB-Mannheim/tesseract/wiki
+
+Nach der Installation muss der Pfad hinterlegt werden
+Einstellungen/System/Info/Erweiterte Systemeinstellungen/Erweitert/Umgebungsvariablen
+
+C:\Program Files\Tesseract-OCR
+
+für python müssen die benötigten APIs installiert (und geladen) werden.
+pip install pytesseract
+
