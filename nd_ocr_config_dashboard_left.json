@@ -1,0 +1,32 @@
+{
+  "fields": [
+    {
+      "label": "Upload",
+      "patterns": [
+        "Upload\\s*(?:Sum of Averages)?[\\s\\S]*?(?P<val>\\d+(?:[.,]\\d+)?)\\s*M[bB]ps"
+      ]
+    },
+    {
+      "label": "LAN Latency (RTT)",
+      "patterns": [
+        "LAN\\s+Latency\\s*\\(RTT\\)[\\s\\S]*?(?P<val>\\d+(?:[.,]\\d+)?)\\s*ms"
+      ]
+    },
+    {
+      "label": "LAN Jitter",
+      "patterns": [
+        "LAN\\s+Jitter[\\s\\S]*?(?P<val>\\d+(?:[.,]\\d+)?)\\s*ms"
+      ]
+    },
+    {
+      "label": "LAN Packet Loss",
+      "patterns": [
+        "LAN\\s+Packet\\s+Loss[\\s\\S]*?(?P<val>\\d+(?:[.,]\\d+)?)\\s*%"
+      ]
+    },
+    { "label": "Download", "patterns": [ "(?!)" ] },
+    { "label": "WAN Latency (RTT)", "patterns": [ "(?!)" ] },
+    { "label": "WAN Jitter", "patterns": [ "(?!)" ] },
+    { "label": "WAN Packet Loss", "patterns": [ "(?!)" ] }
+  ]
+}

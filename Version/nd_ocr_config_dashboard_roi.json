@@ -1,0 +1,50 @@
+{
+  "fields": [
+    {
+    "label": "Hochladen",
+    "roi": [0.18, 0.01, 0.49, 0.18],
+    "patterns": [
+        "(?P<val>[0-9][0-9\\., ]*\\s*(?:m\\s*bit\\s*/\\s*s|mbps|kbps|gbps|kbit\\s*/\\s*s|mbit\\s*/\\s*s|gbit\\s*/\\s*s|mbit/s|kbit/s|gbit/s|MBit/s|KBit/s|GBit/s))",
+        "(?P<val>[0-9][0-9\\., ]*)(?=\\s*(?:m\\s*bit|mbps|kbps|gbps|m|k|g))"
+    ]
+    },
+    {
+    "label": "Herunterladen",
+    "roi": [0.51, 0.01, 0.98, 0.18],
+    "patterns": [
+        "(?P<val>[0-9][0-9\\., ]*\\s*(?:m\\s*bit\\s*/\\s*s|mbps|kbps|gbps|kbit\\s*/\\s*s|mbit\\s*/\\s*s|gbit\\s*/\\s*s|mbit/s|kbit/s|gbit/s|MBit/s|KBit/s|GBit/s))",
+        "(?P<val>[0-9][0-9\\., ]*)(?=\\s*(?:m\\s*bit|mbps|kbps|gbps|m|k|g))"
+    ]
+    },
+    {
+      "label": "LAN Latency (RTT)",
+      "roi": [0.03, 0.28, 0.47, 0.47],
+      "patterns": ["(?P<val>[0-9][0-9\\., ]*\\s*ms)"]
+    },
+    {
+      "label": "WAN Latency (RTT)",
+      "roi": [0.53, 0.28, 0.97, 0.47],
+      "patterns": ["(?P<val>[0-9][0-9\\., ]*\\s*ms)"]
+    },
+    {
+      "label": "LAN Jitter",
+      "roi": [0.03, 0.53, 0.47, 0.72],
+      "patterns": ["(?P<val>[0-9][0-9\\., ]*\\s*ms)"]
+    },
+    {
+      "label": "WAN Jitter",
+      "roi": [0.53, 0.53, 0.97, 0.72],
+      "patterns": ["(?P<val>[0-9][0-9\\., ]*\\s*ms)"]
+    },
+    {
+      "label": "LAN Packet Loss",
+      "roi": [0.03, 0.78, 0.47, 0.97],
+      "patterns": ["(?P<val>[0-9][0-9\\., ]*\\s*%)"]
+    },
+    {
+      "label": "WAN Packet Loss",
+      "roi": [0.53, 0.78, 0.97, 0.97],
+      "patterns": ["(?P<val>[0-9][0-9\\., ]*\\s*%)"]
+    }
+  ]
+}

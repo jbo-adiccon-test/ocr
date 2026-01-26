@@ -1,0 +1,52 @@
+{
+  "fields": [
+    {
+      "label": "Upload",
+      "patterns": [
+        "Upload[\\s\\S]{0,80}(?P<val>[0-9][0-9\\., ]*\\s*(?:MBit/s|Mbit/s|Mbps|mbps|GBit/s|gbit/s|Gbps|gbps|KBit/s|kbit/s|kbps))"
+      ]
+    },
+    {
+      "label": "Download",
+      "patterns": [
+        "Download[\\s\\S]{0,80}(?P<val>[0-9][0-9\\., ]*\\s*(?:MBit/s|Mbit/s|Mbps|mbps|GBit/s|gbit/s|Gbps|gbps|KBit/s|kbit/s|kbps))"
+      ]
+    },
+    {
+      "label": "LAN Latency (RTT)",
+      "patterns": [
+        "LAN\\s*Latency\\s*\\(RTT\\)[\\s\\S]{0,80}(?P<val>[0-9][0-9\\., ]*\\s*(?:ms|s))"
+      ]
+    },
+    {
+      "label": "WAN Latency (RTT)",
+      "patterns": [
+        "WAN\\s*Latency\\s*\\(RTT\\)[\\s\\S]{0,80}(?P<val>[0-9][0-9\\., ]*\\s*(?:ms|s))"
+      ]
+    },
+    {
+      "label": "LAN Jitter",
+      "patterns": [
+        "LAN\\s*Jitter[\\s\\S]{0,80}(?P<val>[0-9][0-9\\., ]*\\s*(?:ms))"
+      ]
+    },
+    {
+      "label": "WAN Jitter",
+      "patterns": [
+        "WAN\\s*Jitter[\\s\\S]{0,80}(?P<val>[0-9][0-9\\., ]*\\s*(?:ms))"
+      ]
+    },
+    {
+      "label": "LAN Packet Loss",
+      "patterns": [
+        "LAN\\s*Packet\\s*Loss[\\s\\S]{0,80}(?P<val>[0-9][0-9\\., ]*\\s*%)"
+      ]
+    },
+    {
+      "label": "WAN Packet Loss",
+      "patterns": [
+        "WAN\\s*Packet\\s*Loss[\\s\\S]{0,80}(?P<val>[0-9][0-9\\., ]*\\s*%)"
+      ]
+    }
+  ]
+}
