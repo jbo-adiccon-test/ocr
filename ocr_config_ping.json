@@ -1,0 +1,12 @@
+{
+  "fields": [
+    {
+      "label": "Roundtripzeit",
+        "patterns": [
+          "(?P<val>\\b\\d(?:\\s?\\d){0,3}\\b)"
+]
+
+    }
+  ]
+}
+
