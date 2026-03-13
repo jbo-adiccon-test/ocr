@@ -3,8 +3,8 @@
     {
       "label": "Roundtripzeit",
         "patterns": [
-          "(?P<val>\\b\\d(?:\\s?\\d){0,3}\\b)"
-]
+          "(?P<val>\\b\\d{1,4}\\b)"
+        ]
 
     }
   ]

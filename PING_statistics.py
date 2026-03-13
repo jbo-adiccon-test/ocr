@@ -36,7 +36,7 @@ def main() -> int:
     categories = ["hervorragend", "sehr gut", "gut", "ausreichend", "ungenügend"]
     results: list[tuple[str, dict[str, float], dict[str, tuple[float, str]]]] = []
 
-    out_file = output_dir / "statisics.csv"
+    out_file = output_dir / "statistics.csv"
 
     for csv_path in sorted(output_dir.glob("*.csv")):
         if csv_path.name == out_file.name:
@@ -73,14 +73,18 @@ def main() -> int:
             ) / 2
             p90_index = max(0, math.ceil(0.9 * len(values)) - 1)
             p90_value = values[p90_index]
+            p95_index = max(0, math.ceil(0.95 * len(values)) - 1)
+            p95_value = values[p95_index]
         else:
             mean_value = 0.0
             median_value = 0.0
             p90_value = 0.0
+            p95_value = 0.0
 
         stats["Mittelwert"] = (mean_value, classify_ms(mean_value))
         stats["Median"] = (median_value, classify_ms(median_value))
         stats["P90"] = (p90_value, classify_ms(p90_value))
+        stats["P95"] = (p95_value, classify_ms(p95_value))
 
         results.append((csv_path.name, percents, stats))
 
@@ -92,6 +96,8 @@ def main() -> int:
         "Median_Note",
         "P90",
         "P90_Note",
+        "P95",
+        "P95_Note",
     ] + categories
     with out_file.open("w", encoding="utf-8", newline="") as handle:
         writer = csv.writer(handle, delimiter=";")
@@ -106,6 +112,8 @@ def main() -> int:
                     stats["Median"][1],
                     f"{stats['P90'][0]:.1f}",
                     stats["P90"][1],
+                    f"{stats['P95'][0]:.1f}",
+                    stats["P95"][1],
                 ]
                 + [f"{percents[c]:.1f}" for c in categories]
             )
@@ -129,6 +137,8 @@ def main() -> int:
             stats["Median"][1],
             f"{stats['P90'][0]:.1f}",
             stats["P90"][1],
+            f"{stats['P95'][0]:.1f}",
+            stats["P95"][1],
         ] + [f"{percents[c]:.1f}%" for c in categories]
         print(" | ".join(value.ljust(width) for value, width in zip(row, col_widths)))
 
