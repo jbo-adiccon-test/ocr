@@ -18,10 +18,9 @@ DEFAULTS = argparse.Namespace(
     white=255,
     auto_factor=2.5,
     run_output="./output/auswertung.csv",
-    batch_output_dir="./test_output",
-    
-    batch_root=r"E:\0_nd_e2e_evaluation\CLOUDGAMiNG\UB9J4_50\COUNTSTRIKE_PING_TESTS\20260219_0900003", # Wurzelverzeichns bei Batchverarbeitung
-    batch_prefix="Check",
+    batch_output_dir="./output",    
+    batch_root=r"E:\0_nd_e2e_evaluation\CLOUDGAMiNG\HomeLAN_Results\GeForceNowPing\20260314_HOME", # Wurzelverzeichns bei Batchverarbeitung
+    batch_prefix="20260314",
     #batch_prefix=datetime.now().strftime("%Y%m%d"),
 )
 
@@ -506,15 +505,16 @@ def run_batch(args, cfg, tz, engine, reader_or_pt):
 
 # Nutzung (Grundzuege):
 # 1) Einzelordner verarbeiten:
-#    python "ocr_extract_screenshots copy.py" run --input <BILD_ORDNER> [--output <CSV_PFAD>]
+#    python "ocr_extract_screenshots_advanced.py" run --input <BILD_ORDNER> [--output <CSV_PFAD>]
 # 2) Mehrere Unterordner im Batch verarbeiten:
-#    python "ocr_extract_screenshots copy.py" batch --root <ROOT_ORDNER> [--output-dir <AUSGABE_ORDNER>] [--prefix <NAME>]
+#    python "ocr_extract_screenshots_advanced.py" batch --root <ROOT_ORDNER> [--output-dir <AUSGABE_ORDNER>] [--prefix <NAME>]
 # 3) Transparenz/Freigabe:
 #    --dry-run prueft nur den Ablauf ohne OCR/Dateischreiben, --verbose zeigt Fortschritt pro Bild.
 # 4) Qualitaetsrelevante Optionen:
 #    --config, --timezone und --preprocess {off,auto,manual} sowie --black/--white/--auto-factor.
 # 5) Defaults zentral pflegen:
 #    Standardwerte fuer den Parser stehen im Namespace DEFAULTS (oben in der Datei).
+#    Input Output Verzeichnis etc.
 def main():
     start_time = datetime.now()
     parser = build_parser()
