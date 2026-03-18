@@ -1,0 +1,96 @@
+Dateiname;Mittelwert;Mittelwert_Note;Median;Median_Note;P90;P90_Note;P95;P95_Note;hervorragend;sehr gut;gut;ausreichend;ungenügend
+20260129_HOME_WLAN_Verstärker_BOOSTCLGA_LOADYOUTUBE4K.csv;20.9;gut;19.0;sehr gut;24.0;gut;29.0;gut;0.0;58.5;39.0;2.0;0.5
+20260129_HOME_WLAN_Verstärker_BOOSTNOPRIO_LOADNO.csv;16.9;sehr gut;16.0;sehr gut;20.0;gut;23.0;gut;0.0;88.0;12.0;0.0;0.0
+20260129_HOME_WLAN_Verstärker_BOOSTNOPRIO_LOADTCP8.csv;23.1;gut;22.0;gut;30.0;gut;34.0;gut;0.0;30.2;67.8;2.0;0.0
+20260129_HOME_WLAN_Verstärker_BOOSTNOPRIO_LOADYOUTUBE4K.csv;39.2;gut;22.0;gut;70.0;ausreichend;165.0;ungenügend;0.0;29.0;50.0;11.5;9.5
+20260130_HOME_LAN_BOOSTCLGA_LOADMAGTVYOUTUBE4K.csv;20.7;gut;19.5;sehr gut;31.0;gut;43.0;ausreichend;0.0;50.0;43.0;7.0;0.0
+20260130_HOME_LAN_BOOSTCLGA_LOADNO.csv;12.0;sehr gut;12.0;sehr gut;12.0;sehr gut;12.0;sehr gut;0.0;100.0;0.0;0.0;0.0
+20260130_HOME_LAN_BOOSTCLGA_LOADYOUTUBE4K.csv;16.7;sehr gut;15.0;sehr gut;25.0;gut;28.0;gut;0.0;68.5;31.0;0.5;0.0
+20260130_HOME_LAN_BOOSTDEACTIVATE_LOADMAGTVYOUTUBE4K.csv;21.1;gut;22.0;gut;29.0;gut;32.0;gut;0.0;39.0;60.0;1.0;0.0
+20260130_HOME_LAN_BOOSTDEACTIVATE_LOADNO.csv;11.3;sehr gut;11.0;sehr gut;13.0;sehr gut;15.0;sehr gut;12.0;87.5;0.5;0.0;0.0
+20260130_HOME_LAN_BOOSTDEACTIVATE_LOADNO_2.csv;12.0;sehr gut;12.0;sehr gut;12.0;sehr gut;12.0;sehr gut;0.0;100.0;0.0;0.0;0.0
+20260130_HOME_LAN_BOOSTDEACTIVATE_LOADYOUTUBE4K.csv;17.2;sehr gut;16.0;sehr gut;25.0;gut;28.0;gut;0.0;62.5;35.5;2.0;0.0
+20260130_HOME_LAN_BOOSTDEACTIVATE_LOADYOUTUBE4K_2.csv;18.0;sehr gut;17.0;sehr gut;25.0;gut;28.0;gut;0.0;60.5;39.0;0.5;0.0
+20260130_HOME_LAN_BOOSTNOPRIO_LOADNO.csv;11.6;sehr gut;11.0;sehr gut;13.0;sehr gut;14.0;sehr gut;0.0;100.0;0.0;0.0;0.0
+20260130_HOME_LAN_BOOSTNOPRIO_LOADYOUTUBE4K.csv;17.6;sehr gut;15.0;sehr gut;28.0;gut;33.0;gut;0.0;67.5;31.0;1.5;0.0
+20260203_ULBWE_LAN_BOOSTCLGA__LOADSTEAM.csv;13.9;sehr gut;13.0;sehr gut;21.0;gut;23.0;gut;30.5;53.0;16.5;0.0;0.0
+20260203_ULBWE_LAN_BOOSTCLGA_LOADNO.csv;6.0;hervorragend;6.0;hervorragend;6.0;hervorragend;6.0;hervorragend;100.0;0.0;0.0;0.0;0.0
+20260203_ULBWE_LAN_BOOSTDEACTIVATE_LOADNO.csv;6.0;hervorragend;6.0;hervorragend;6.0;hervorragend;6.0;hervorragend;100.0;0.0;0.0;0.0;0.0
+20260203_ULBWE_LAN_BOOSTDEACTIVATE_LOADSTEAM.csv;9.7;hervorragend;7.0;hervorragend;16.0;sehr gut;19.0;sehr gut;67.5;28.5;4.0;0.0;0.0
+20260203_ULBWE_LAN_BOOSTDEACTIVATE_LOADYOUTUBE4K.csv;7.5;hervorragend;6.5;hervorragend;11.0;sehr gut;13.0;sehr gut;85.0;14.5;0.5;0.0;0.0
+20260203_ULBWE_LAN_BOOSTNOPRIO_LOADNO.csv;6.0;hervorragend;6.0;hervorragend;6.0;hervorragend;6.0;hervorragend;99.5;0.5;0.0;0.0;0.0
+20260203_ULBWE_LAN_BOOSTNOPRIO_LOADSTEAM.csv;9.8;hervorragend;7.0;hervorragend;14.0;sehr gut;19.0;sehr gut;68.0;27.0;4.0;1.0;0.0
+20260203_ULBWE_LAN_BOOSTNOPRIO_LOADYOUTUBE4K.csv;7.7;hervorragend;6.0;hervorragend;7.0;hervorragend;17.0;sehr gut;94.5;0.5;2.5;2.5;0.0
+20260205_UMBBP_LAN_BOOSTCLGA_LOADYOUTUBE4K_TC4P_MAGENTATVMC.csv;7.0;hervorragend;6.0;hervorragend;9.0;hervorragend;10.0;sehr gut;94.0;5.0;1.0;0.0;0.0
+20260205_UMBBP_LAN_BOOSTDEACTIVATE_LOADYOUTUBE4K_TCP4P_MAGENTATVMC.csv;12.4;sehr gut;10.5;sehr gut;22.0;gut;27.0;gut;43.5;42.0;14.5;0.0;0.0
+20260205_UMBBP_LAN_BOOSTNOPRIO_LOADYOUTUBE4K_TCP4P_MAGENTATVMC.csv;9.0;hervorragend;8.0;hervorragend;10.0;sehr gut;15.0;sehr gut;86.0;11.0;1.5;1.0;0.5
+20260205_UMBBP_WLAN_ACCDEACTIVATED_LOADYOUTBUE4K_TCP4P_MAGENTATVMC.csv;27.4;gut;28.0;gut;35.0;gut;36.0;gut;3.0;6.0;90.0;1.0;0.0
+20260205_UMBBP_WLAN_BOOSTCLGA_LOADYOUTUBE4K_TC4P_MAGENTATVMC.csv;10.7;sehr gut;9.0;hervorragend;13.0;sehr gut;21.0;gut;75.5;18.5;3.5;2.0;0.5
+20260205_UMBBP_WLAN_BOOSTDEACTIVATE_LOADYOUTUBE4K_TCP4P_MAGENTATVMC.csv;19.5;sehr gut;16.0;sehr gut;33.0;gut;34.0;gut;9.5;50.5;38.5;1.5;0.0
+20260205_UMBBP_WLAN_BOOSTNOPRIO_LOADYOUTUBE4K_TCP4P_MAGENTATVMC.csv;16.2;sehr gut;10.0;sehr gut;27.0;gut;56.0;ausreichend;38.5;46.0;7.5;6.0;2.0
+20260206_HOME_LAN_BOOSTCLGA_LOADNO.csv;9.8;hervorragend;9.0;hervorragend;10.0;sehr gut;15.0;sehr gut;82.0;15.5;2.5;0.0;0.0
+20260206_HOME_LAN_BOOSTCLGA_LOADTCP8.csv;11.0;sehr gut;10.0;sehr gut;11.0;sehr gut;18.0;sehr gut;13.5;83.0;3.0;0.5;0.0
+20260206_HOME_LAN_BOOSTCLGA_LOADYOUTUBE4K.csv;10.8;sehr gut;9.0;hervorragend;10.0;sehr gut;18.0;sehr gut;82.0;14.0;3.0;0.5;0.5
+20260206_HOME_LAN_BOOSTCLGA_LOADYOUTUBE4K_MAGENTATVMC.csv;11.8;sehr gut;9.5;hervorragend;18.0;sehr gut;25.0;gut;50.0;41.5;7.0;1.5;0.0
+20260206_HOME_LAN_NDOFF_LOADNO.csv;9.1;hervorragend;9.0;hervorragend;9.0;hervorragend;10.0;sehr gut;90.5;9.5;0.0;0.0;0.0
+20260206_HOME_LAN_NDOFF_LOADTCPP8.csv;29.8;gut;30.0;gut;35.0;gut;37.0;gut;2.5;1.5;95.0;1.0;0.0
+20260206_HOME_LAN_NDOFF_LOADYOUTUBE4K.csv;18.4;sehr gut;17.0;sehr gut;31.0;gut;34.0;gut;30.5;24.5;44.0;1.0;0.0
+20260206_HOME_LAN_NDOFF_LOADYOUTUBE4K_MAGENTATVMC.csv;15.1;sehr gut;15.0;sehr gut;22.0;gut;25.0;gut;34.5;39.0;26.0;0.5;0.0
+20260206_HOME_WLAN_BOOSTCLGA_LOADNO.csv;12.2;sehr gut;12.0;sehr gut;14.0;sehr gut;14.0;sehr gut;0.0;99.5;0.5;0.0;0.0
+20260206_HOME_WLAN_BOOSTCLGA_LOADTCP8.csv;15.0;sehr gut;14.0;sehr gut;19.0;sehr gut;21.0;gut;0.0;91.5;8.5;0.0;0.0
+20260206_HOME_WLAN_BOOSTCLGA_LOADYOUTBÙBE4K_MAGENTATVMC.csv;45.0;ausreichend;19.0;sehr gut;110.0;ungenügend;170.0;ungenügend;0.0;50.5;22.0;11.5;16.0
+20260206_HOME_WLAN_BOOSTCLGA_LOADYOUTUBE4K.csv;51.4;ausreichend;19.0;sehr gut;163.0;ungenügend;201.0;ungenügend;0.0;51.0;16.5;14.0;18.5
+20260206_HOME_WLAN_NDOFF_LOADNO.csv;12.3;sehr gut;12.0;sehr gut;14.0;sehr gut;15.0;sehr gut;0.0;100.0;0.0;0.0;0.0
+20260206_HOME_WLAN_NDOFF_LOADTCP8.csv;32.8;gut;33.0;gut;40.0;ausreichend;42.0;ausreichend;0.0;2.5;84.5;13.0;0.0
+20260206_HOME_WLAN_NDOFF_LOADYOUTUBE4K.csv;14.2;sehr gut;12.0;sehr gut;20.0;gut;23.0;gut;0.0;86.5;12.5;1.0;0.0
+20260206_HOME_WLAN_NDOFF_LOADYOUTUBE4K_MAGENTYTVMC.csv;15.3;sehr gut;14.0;sehr gut;21.0;gut;22.0;gut;0.0;86.0;14.0;0.0;0.0
+20260210_HOME_LAN_BOOSTCLGA_LOADNO.csv;7.2;hervorragend;7.0;hervorragend;8.0;hervorragend;8.0;hervorragend;100.0;0.0;0.0;0.0;0.0
+20260210_HOME_LAN_BOOSTCLGA_LOADTCP8.csv;9.4;hervorragend;9.0;hervorragend;10.0;sehr gut;10.0;sehr gut;65.0;35.0;0.0;0.0;0.0
+20260210_HOME_LAN_BOOSTCLGA_LOADYOUTUBE4K.csv;15.9;sehr gut;13.0;sehr gut;29.0;gut;30.0;gut;28.0;39.5;32.0;0.5;0.0
+20260210_HOME_LAN_BOOSTCLGA_LOADYOUTUBE4K_MAGENTATVMC.csv;19.3;sehr gut;17.0;sehr gut;33.0;gut;36.0;gut;10.1;48.2;39.2;2.5;0.0
+20260210_HOME_LAN_NDOFF_LOADNO.csv;10.5;sehr gut;10.0;sehr gut;11.0;sehr gut;11.0;sehr gut;0.0;99.5;0.5;0.0;0.0
+20260210_HOME_LAN_NDOFF_LOADTCP8.csv;30.7;gut;32.0;gut;38.0;gut;40.0;ausreichend;0.0;6.5;88.0;5.5;0.0
+20260210_HOME_LAN_NDOFF_LOADYOUTUBE4K.csv;17.6;sehr gut;16.0;sehr gut;28.0;gut;31.0;gut;0.0;61.5;38.5;0.0;0.0
+20260210_HOME_LAN_NDOFF_LOADYOUTUBE4K_MAGENTATVMC.csv;18.2;sehr gut;17.0;sehr gut;32.0;gut;36.0;gut;0.0;56.0;43.0;1.0;0.0
+20260210_HOME_WLAN_BOOSTCLGA_LOADNO.csv;13.2;sehr gut;13.0;sehr gut;15.0;sehr gut;16.0;sehr gut;0.0;99.0;1.0;0.0;0.0
+20260210_HOME_WLAN_BOOSTCLGA_LOADTCP8.csv;16.2;sehr gut;15.0;sehr gut;20.0;gut;23.0;gut;0.0;84.5;15.5;0.0;0.0
+20260210_HOME_WLAN_BOOSTCLGA_LOADYOUTUBE4K.csv;16.7;sehr gut;15.0;sehr gut;21.0;gut;26.0;gut;0.0;89.0;10.0;1.0;0.0
+20260210_HOME_WLAN_BOOSTCLGA_LOADYOUTUBE4K_MAGENTATVMC.csv;16.1;sehr gut;15.0;sehr gut;20.0;gut;22.0;gut;0.0;89.5;9.0;1.5;0.0
+20260210_HOME_WLAN_NDOFF_LOADNO.csv;12.5;sehr gut;12.0;sehr gut;13.0;sehr gut;13.0;sehr gut;0.0;99.5;0.5;0.0;0.0
+20260210_HOME_WLAN_NDOFF_LOADTCP8.csv;33.3;gut;34.0;gut;38.0;gut;39.0;gut;0.0;2.5;92.5;5.0;0.0
+20260210_HOME_WLAN_NDOFF_LOADYOUTUBE4K.csv;18.0;sehr gut;13.0;sehr gut;30.0;gut;33.0;gut;0.0;65.5;34.0;0.5;0.0
+20260210_HOME_WLAN_NDOFF_LOADYOUTUBE4K_MAGENTATVMC.csv;17.9;sehr gut;17.0;sehr gut;25.0;gut;30.0;gut;0.0;63.5;36.5;0.0;0.0
+20260219_UB9J4_LAN_BOOSTCLGA_LOADOFF.csv;5.4;hervorragend;5.0;hervorragend;5.0;hervorragend;6.0;hervorragend;98.5;0.5;1.0;0.0;0.0
+20260219_UB9J4_LAN_BOOSTCLGA_LOADTCP8P.csv;9.4;hervorragend;8.0;hervorragend;13.0;sehr gut;16.0;sehr gut;67.0;29.5;1.5;2.0;0.0
+20260219_UB9J4_LAN_BOOSTCLGA_LOADYOUTUBE4K_MAGENTATV20.csv;17.0;sehr gut;8.0;hervorragend;42.0;ausreichend;56.0;ausreichend;58.5;17.0;11.5;11.5;1.5
+20260219_UB9J4_LAN_BOOSTCLGA_LOAYOUTUBE4K.csv;11.1;sehr gut;5.0;hervorragend;9.0;hervorragend;43.0;ausreichend;91.0;3.0;1.0;2.0;3.0
+20260219_UB9J4_LAN_LEGACY083_LOADOFF.csv;6.0;hervorragend;6.0;hervorragend;6.0;hervorragend;6.0;hervorragend;99.5;0.5;0.0;0.0;0.0
+20260219_UB9J4_LAN_LEGACY083_LOADTCP8P.csv;24.3;gut;25.0;gut;29.0;gut;30.0;gut;3.5;3.0;93.5;0.0;0.0
+20260219_UB9J4_LAN_LEGACY083_LOADYOUTUBE4K.csv;8.3;hervorragend;6.0;hervorragend;13.0;sehr gut;17.0;sehr gut;80.0;17.0;3.0;0.0;0.0
+20260219_UB9J4_LAN_LEGACY083_LOADYOUTUBE4K_MAGENTATV20.csv;24.2;gut;7.5;hervorragend;22.0;gut;47.0;ausreichend;66.0;20.5;8.0;0.5;5.0
+20260219_UB9J4_WLAN_BOOSTCLGA_LOADOFF.csv;11.1;sehr gut;7.0;hervorragend;22.0;gut;32.0;gut;73.0;14.5;10.5;2.0;0.0
+20260219_UB9J4_WLAN_BOOSTCLGA_LOADTCP8P.csv;14.2;sehr gut;9.5;hervorragend;26.0;gut;39.0;gut;50.0;35.5;9.5;4.0;1.0
+20260219_UB9J4_WLAN_BOOSTCLGA_LOADYOUTUBE4K.csv;13.2;sehr gut;7.0;hervorragend;30.0;gut;44.0;ausreichend;73.0;12.5;7.0;6.5;1.0
+20260219_UB9J4_WLAN_BOOSTCLGA_LOADYOUTUBE4K_MAGENTATV20.csv;18.3;sehr gut;7.0;hervorragend;28.0;gut;60.0;ausreichend;69.0;17.5;5.5;4.0;4.0
+20260219_UB9J4_WLAN_LEGACY083_LOADOFF.csv;6.5;hervorragend;6.0;hervorragend;7.0;hervorragend;7.0;hervorragend;99.5;0.5;0.0;0.0;0.0
+20260219_UB9J4_WLAN_LEGACY083_LOADTCP8P.csv;25.7;gut;26.0;gut;30.0;gut;31.0;gut;3.5;2.5;93.5;0.5;0.0
+20260219_UB9J4_WLAN_LEGACY083_LOADYOUTUBE4K.csv;9.0;hervorragend;7.0;hervorragend;12.0;sehr gut;20.0;gut;79.5;15.0;5.5;0.0;0.0
+20260219_UB9J4_WLAN_LEGACY083_LOADYOUTUBE4K_MAGENTATV20.csv;20.8;gut;8.0;hervorragend;19.0;sehr gut;48.0;ausreichend;69.5;21.5;3.0;2.5;3.5
+20260312_HOME_LAN_LEGACY082_LOADNO.csv;10.0;sehr gut;10.0;sehr gut;10.0;sehr gut;10.0;sehr gut;0.0;100.0;0.0;0.0;0.0
+20260312_HOME_LAN_LEGACY082_LOADTCP8.csv;30.0;gut;31.0;gut;36.0;gut;37.0;gut;0.0;5.5;94.0;0.5;0.0
+20260312_HOME_LAN_LEGACY082_LOADYOUTUBE4K.csv;14.7;sehr gut;11.0;sehr gut;26.0;gut;31.0;gut;0.0;80.0;18.5;1.5;0.0
+20260312_HOME_LAN_LEGACY082_LOADYOUTUBE4K_MAGENTATVMC.csv;15.7;sehr gut;12.0;sehr gut;27.0;gut;32.0;gut;0.0;77.5;21.0;1.5;0.0
+20260312_HOME_WLAN_LEGACY082_LOADNO.csv;11.2;sehr gut;11.0;sehr gut;12.0;sehr gut;12.0;sehr gut;0.0;99.5;0.5;0.0;0.0
+20260312_HOME_WLAN_LEGACY082_LOADTCP8.csv;31.7;gut;32.0;gut;37.0;gut;38.0;gut;0.0;2.0;96.0;2.0;0.0
+20260312_HOME_WLAN_LEGACY082_LOADYOUTUBE4K.csv;16.4;sehr gut;14.5;sehr gut;24.0;gut;26.0;gut;0.0;66.0;34.0;0.0;0.0
+20260312_HOME_WLAN_LEGACY082_LOADYOUTUBE4K_MAGENTATVMC.csv;15.7;sehr gut;14.0;sehr gut;22.0;gut;24.0;gut;0.0;76.5;23.5;0.0;0.0
+20260314_HOME_LAN_BOOSTCLGA_LOADNO.csv;12.7;sehr gut;12.0;sehr gut;15.0;sehr gut;16.0;sehr gut;0.0;100.0;0.0;0.0;0.0
+20260314_HOME_LAN_BOOSTCLGA_LOADTCP8.csv;13.6;sehr gut;13.0;sehr gut;15.0;sehr gut;17.0;sehr gut;0.0;99.5;0.0;0.5;0.0
+20260314_HOME_LAN_BOOSTCLGA_LOADYOUTUBE4K_1.csv;18.0;sehr gut;15.0;sehr gut;30.0;gut;36.0;gut;0.0;69.0;30.0;1.0;0.0
+20260314_HOME_LAN_BOOSTCLGA_LOADYOUTUBE4K_2.csv;17.1;sehr gut;14.0;sehr gut;26.0;gut;29.0;gut;0.0;75.5;23.0;1.5;0.0
+20260314_HOME_LAN_BOOSTCLGA_LOADYOUTUBE4K_MAGENTATVMC.csv;18.4;sehr gut;14.0;sehr gut;34.0;gut;39.0;gut;0.0;73.0;23.0;4.0;0.0
+20260314_HOME_WLAN_BOOSTCLGA_LOADNO.csv;14.5;sehr gut;14.0;sehr gut;17.0;sehr gut;18.0;sehr gut;0.0;98.5;1.5;0.0;0.0
+20260314_HOME_WLAN_BOOSTCLGA_LOADTCP8.csv;15.5;sehr gut;15.0;sehr gut;18.0;sehr gut;20.0;gut;0.0;94.0;6.0;0.0;0.0
+20260314_HOME_WLAN_BOOSTCLGA_LOADYOUTUBE4K_1.csv;26.9;gut;14.5;sehr gut;68.0;ausreichend;91.0;ungenügend;0.0;78.0;6.0;9.5;6.5
+20260314_HOME_WLAN_BOOSTCLGA_LOADYOUTUBE4K_2.csv;23.0;gut;15.0;sehr gut;40.0;ausreichend;61.0;ausreichend;0.0;73.5;16.0;7.5;3.0
+20260314_HOME_WLAN_BOOSTCLGA_LOADYOUTUBE4K_MAGENTATVMC.csv;24.1;gut;16.0;sehr gut;42.0;ausreichend;61.0;ausreichend;0.0;74.0;14.5;7.0;4.5
